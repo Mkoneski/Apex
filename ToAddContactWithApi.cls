@@ -20,10 +20,3 @@ global class ToAddContactWithApi {
     
     
 }
-
---------------------------------------------------
-{
-  "LastName" : "Atlas contact",
-  "phone" : "223-305"
-  
-}

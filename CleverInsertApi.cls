@@ -22,17 +22,3 @@ global class CleverInsertApi {
     }
 
 }
-
-
--------------------------------------------------------------------
-
-
-{
-  "LastName" : " Clever Contact",
-  "phone" : "223-305",
-  "FirstName":"Marjan",
-  "familyFirstName":"Marjan",
-  "familyLastName" : "Koneski",
-  "familyPhone" : "12345-678",
-  "certifications" : "Certification 1"
-}
