@@ -1,0 +1,18 @@
+<apex:page controller="CatFactsDaily" >
+    
+    <style type="text/css">
+        h1 {
+            text-align: center;       
+            display: block;
+            font-size: 16px;
+            text-decoration: underline;
+        }
+    </style>
+    
+    <h1>
+        Cat Fact of the day!!
+    </h1>
+    
+    <p>{!catFact3}</p>
+    
+</apex:page>

@@ -1,0 +1,17 @@
+trigger AccountTrigger on Account (after insert, after update) {
+    
+    if (trigger.isAfter && trigger.isInsert) {
+
+    AccountTriggerHandler.accountWithTwoRelatedContacts(trigger.new);
+
+    }
+    
+   
+    if (trigger.isAfter && trigger.isInsert || trigger.isAfter && trigger.isUpdate) {
+
+        AccountTriggerHandler.accountWithOpp(trigger.new);
+        
+    }
+
+
+}
